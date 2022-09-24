@@ -22,7 +22,7 @@ DATABASES = {
 #2 Create admin in system
 
 Open command prompt in the root of project directory, then enter there:
-...\> python manage.py createsuperuser
+...> python manage.py createsuperuser
     Username: <your_username>
     Email address: <youremail@addres.com>
     Password: <your password>
@@ -32,7 +32,7 @@ Open command prompt in the root of project directory, then enter there:
 #3 Run application server
 
 In command prompt enter:
-...\> python manage.py runserver
+...> python manage.py runserver
 
 Now, open a web browser and go to http://127.0.0.1:8000/admin/
 
